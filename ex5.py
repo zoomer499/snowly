@@ -1,18 +1,27 @@
-my_name = 'Zuev Aleks'
-my_age = 27 #not a lie
-my_height = 85 # inches
-my_weight = 179 #lbs
-my_eyes = 'Brown'
-my_teeth = 'White'
-my_hair = 'Brown'
+name = 'Зед Шоу'
+age = 35 # это правда
+height = 188# см
+weight = 80 # кг
+eyes = 'Голубые'
+teeth = 'Белые'
+hair = 'Каштановые'
 
-print "Let's talk about %s." % my_name
-print "He's %d inches tall." %my_height
-print "He's %d pounds heavy." %my_weight
-print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." %(my_eyes, my_hair)
-print "His teeth are usually %s depending on the coffee." %my_teeth
+print(f"Давайте поговорим о человеке по имени {name}.")
+print(f"Его рост составляет {height} см.")
+print(f"Он весит {weight} кг.")
+print("На самом деле это не так и много.")
+print(f"У него {eyes} глаза и {hair} волосы.")
+print(f"Его зубы обычно {teeth}, хотя он и любит пить кофе.")
 
-# this line is tricky, try to get exactly right
-print "If I add %d, %d and %d I get %d." %(my_age, my_height, my_weight, my_age+my_height+my_weight)
- 
+#эта строка кода довольно сложная, не ошибитесь!
+total = age + height + weight
+print(f"Если я сложу {age}, {height} и {weight}, то получу {total}.")
+
+cm = 10000
+metr = cm / 100
+
+kg = 20
+
+tonna = kg / 1000
+
+print(f"Если мы возьмем {cm} см, то это равно {metr}. А если мы возьмем {kg} кг, то это равно {tonna} тонн.")
