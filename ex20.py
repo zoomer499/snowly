@@ -38,8 +38,10 @@ print("Выведем три строки:")
 current_line = 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+#current_line = 1, += означает прибавление к перемнной current_line единицы
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+#current_line = 1
+current_line += 1
 print_a_line(current_line, current_file)
